@@ -1,5 +1,8 @@
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:NERDTreeChDirMode       = 2 " change CWD when NERDtree root changes
+let g:ctrlp_working_path_mode = 'rw' " look for root from CWD
+
 colorscheme Lanai
 set guifont=Fantasque\ Sans\ Mono:h13
 set linespace=2
@@ -12,8 +15,10 @@ set number
 set hidden
 set tabstop=2
 set shiftwidth=2
+set fillchars+=vert:\ 
 set listchars=tab:⇢\  "eol=a
 set list
+set smartcase
 "autocmd InsertEnter * :set number
 "autocmd InsertLeave * :set relativenumber
 AirlineTheme bubblegum
