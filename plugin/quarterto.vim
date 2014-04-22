@@ -2,6 +2,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:NERDTreeChDirMode       = 2 " change CWD when NERDtree root changes
 let g:ctrlp_working_path_mode = 'rw' " look for root from CWD
+let g:session_autoload = 'no' " remove session restore prompt
 
 colorscheme Lanai
 set guifont=Fantasque\ Sans\ Mono:h13
@@ -19,6 +20,7 @@ set fillchars+=vert:\
 set listchars=tab:⇢\  "eol=a
 set list
 set smartcase
+set completeopt-=preview " don't show completion preview window
 "autocmd InsertEnter * :set number
 "autocmd InsertLeave * :set relativenumber
 AirlineTheme bubblegum
