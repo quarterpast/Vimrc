@@ -18,3 +18,4 @@ colorscheme Lanai
 set noshowmode
 set number
 set title
+set cursorline

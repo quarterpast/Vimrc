@@ -4,3 +4,6 @@ set infercase
 set hidden
 set shortmess=Ot
 set completeopt-=preview
+set list
+set listchars=tab:⇥\ ,eol:↩︎
+set clipboard=unnamed
