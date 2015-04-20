@@ -7,3 +7,6 @@ set completeopt-=preview
 set list
 set listchars=tab:⇥\ ,eol:↩︎
 set clipboard=unnamed
+set directory=/tmp/nvim//
+set backupdir=/tmp/nvim//
+
