@@ -1,8 +1,10 @@
+let g:neobundle#install_process_timeout = 1800 " YCM takes ages to install
+
+NeoBundle 'Shougo/vimproc.vim', { 'build': { 'others': 'make' }}
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'Shougo/vimproc.vim'
 NeoBundle 'airblade/vim-gitgutter'
-NeoBundle 'Valloric/YouCompleteMe'
+NeoBundle 'Valloric/YouCompleteMe', { 'build': { 'others': './install.sh' }}
 NeoBundle 'quarterto/Lanai'
 NeoBundle 'tpope/vim-vinegar'
 NeoBundle 'marijnh/tern_for_vim'
