@@ -20,3 +20,4 @@ set noshowmode
 set number
 set title
 set cursorline
+set fillchars+=vert:│
