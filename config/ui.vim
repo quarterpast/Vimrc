@@ -1,3 +1,4 @@
+set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'murmur'
 let g:airline_mode_map = {
@@ -18,3 +19,5 @@ colorscheme Lanai
 set noshowmode
 set number
 set title
+set cursorline
+set fillchars+=vert:│
