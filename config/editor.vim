@@ -13,4 +13,5 @@ set backupdir=/tmp/nvim//
 set noexpandtab sw=2 ts=2
 set backspace=2
 set splitbelow splitright
+set errorformat=%f:%l:%m
 
