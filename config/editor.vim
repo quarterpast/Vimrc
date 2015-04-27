@@ -8,8 +8,8 @@ set completeopt-=preview
 set list
 set listchars=tab:⇥\ ,eol:↩︎
 set clipboard=unnamed
-set directory=/tmp/nvim//
-set backupdir=/tmp/nvim//
+set directory=/tmp//
+set backupdir=/tmp//
 set noexpandtab sw=2 ts=2
 set backspace=2
 set splitbelow splitright
