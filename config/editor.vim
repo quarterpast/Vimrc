@@ -14,4 +14,8 @@ set noexpandtab sw=2 ts=2
 set backspace=2
 set splitbelow splitright
 set errorformat=%f:%l:%m
-
+set selection=inclusive
+let g:detectindent_preferred_expandtab = 0
+let g:detectindent_preferred_indent = 2
+autocmd BufRead * DetectIndent
+autocmd BufWritePost *.vim so %

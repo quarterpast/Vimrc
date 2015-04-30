@@ -4,3 +4,4 @@ bundle/*
 !bundle/neobundle.vim
 !bundle/extra_bundles.vim
 sessions
+.nvim
