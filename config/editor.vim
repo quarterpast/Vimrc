@@ -19,3 +19,10 @@ let g:detectindent_preferred_expandtab = 0
 let g:detectindent_preferred_indent = 2
 autocmd BufRead * DetectIndent
 autocmd BufWritePost *.vim so %
+set undofile
+set undodir=~/.nvim/undo
+set hlsearch
+autocmd InsertEnter * :set nohlsearch
+autocmd InsertLeave * :set hlsearch
+nnoremap <Esc> :<C-u>set nohlsearch<cr>
+nnoremap n :<C-u>set hlsearch<cr>n
