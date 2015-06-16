@@ -14,6 +14,7 @@ let g:airline_mode_map = {
 \  'v':  '╂',
 \  'n':  '№'
 \}
+let g:airline#extensions#whitespace#mixed_indent_algo = 2
 
 colorscheme Lanai
 set noshowmode
@@ -21,3 +22,4 @@ set number
 set title
 set cursorline
 set fillchars+=vert:│
+set wildignorecase wildmenu wildmode=longest,full
