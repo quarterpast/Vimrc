@@ -261,9 +261,9 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>3293 154 770 390 3200 -77 1080 1897 </string>
+	<string>2013 91 606 456 1920 -173 1080 1920 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 12 1278 765 0 0 1280 777 </string>
+	<string>2347 231 480 373 1920 -173 1080 1897 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -939,6 +939,8 @@
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
+	<key>NoSyncSuppressAnnyoingBellOffer</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>PMPrintingExpandedStateForPrint2</key>
@@ -1008,6 +1010,10 @@
 	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>findIgnoreCase_iTerm</key>
+	<true/>
+	<key>findRegex_iTerm</key>
+	<false/>
 	<key>iTerm Version</key>
 	<string>2.9.git.e2583505c2</string>
 </dict>
