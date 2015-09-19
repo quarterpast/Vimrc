@@ -26,3 +26,10 @@ autocmd InsertEnter * :set nohlsearch
 autocmd InsertLeave * :set hlsearch
 nnoremap <Esc> :<C-u>set nohlsearch<cr>
 nnoremap n :<C-u>set hlsearch<cr>n
+set autoread
+let g:rooter_use_lcd = 1
+let g:rooter_change_directory_for_non_project_files = 1
+let g:rooter_silent_chdir = 1
+set backupcopy=yes
+autocmd BufEnter * :checktime
+autocmd FocusGained * :checktime
