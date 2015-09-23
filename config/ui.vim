@@ -1,5 +1,6 @@
 set laststatus=2
 let g:airline_powerline_fonts = 1
+let g:airline_inactive_collapse = 0
 let g:airline_theme = 'murmur'
 let g:airline_mode_map = {
 \  'c':  '⌘',
